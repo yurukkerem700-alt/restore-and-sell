@@ -62,7 +62,7 @@ app.innerHTML = `
     </div>
   </div>
 
-  <div id="ad-container" aria-label="Reklam alanı" class="fixed bottom-2 left-1/2 z-50 flex h-[50px] w-[320px] -translate-x-1/2 items-center justify-center rounded-xl border border-dashed border-slate-300 bg-white/80 text-[11px] font-bold uppercase tracking-[0.25em] text-slate-400 shadow-lg backdrop-blur">320x50 Ad Banner</div>
+  <div id="ad-container" aria-label="Reklam alanı" class="fixed bottom-2 left-1/2 z-50 h-[50px] w-[320px] -translate-x-1/2 rounded-xl bg-transparent"></div>
 `;
 
 const canvas = $('restoreCanvas'), ctx = canvas.getContext('2d');
